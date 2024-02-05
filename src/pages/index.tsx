@@ -23,7 +23,7 @@ function Home() {
 			md:gap-4 mt-5 container mx-auto xl:px-20"
       >
         <IntroCard section={section} />
-        <TwitterCard section={section} />
+        {/* <TwitterCard section={section} />
         <LinkedInCard section={section} />
         <ToggleCard section={section} />
         <DiscordCard section={section} />
@@ -33,13 +33,9 @@ function Home() {
         <ArticleCard section={section} />
         <MapCard section={section} />
         <MailCard section={section} />
-        <TimeCard section={section} />
+        <TimeCard section={section} /> */}
       </div>
-      <div className="flex justify-center items-center mt-10">
-        <a href="https://anahoward.me/2004.html">
-          <img src="https://cyber.dabamos.de/88x31/entranceorexit.gif" />
-        </a>
-        </div>
+     
     </div>
   );
 }

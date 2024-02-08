@@ -1,4 +1,4 @@
-import {useLocalStorage} from 'hantun/hooks';
+import {useLocalStorage} from 'alistair/hooks';
 import {useRouter} from 'next/router';
 
 export function useFirstEverLoad() {

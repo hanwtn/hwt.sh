@@ -1,5 +1,5 @@
 import {MonzoAPI, type Id, type Models} from '@otters/monzo';
-import {HTTPClientError} from 'hantun/http';
+import {HTTPClientError} from 'alistair/http';
 import {bwitch} from 'bwitch';
 import type {GetServerSideProps, Redirect} from 'next';
 import Link from 'next/link';

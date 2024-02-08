@@ -1,6 +1,6 @@
-const hantun = require('hantun/prettier');
+const alistair = require('alistair/prettier');
 
 module.exports = {
-	...hantun,
+	...alistair,
 	plugins: ['prettier-plugin-tailwindcss'],
 };

@@ -109,7 +109,7 @@ export default function Home(props: Props) {
 	                        }}
                         >
 							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M12 2V22M19.0711 4.92893L4.92893 19.0711M22 12H2M19.0711 19.0711L4.92893 4.92893" stroke="#ffff" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M12 2V22M19.0711 4.92893L4.92893 19.0711M22 12H2M19.0711 19.0711L4.92893 4.92893" stroke="#ffff" strokeWidth="2" stroke-linecap="round" strokeLinejoin="round"/>
 							</svg>
 						</motion.div>
 						<span className="text-xs">Available for work</span>

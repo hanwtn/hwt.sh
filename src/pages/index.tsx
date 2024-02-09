@@ -164,7 +164,7 @@ export default function Home(props: Props) {
 							hoverClassName,
 						)}
 					>
-						<div className="flex items-center justify-center"> 
+						<div className="flex items-center justify-center" style={{color: 'white'}}> 
 						<SiDevpost className="inline scale-[0.7] md:scale-[0.8]" />
 						</div>
 					</Link>
@@ -182,7 +182,7 @@ export default function Home(props: Props) {
 							hoverClassName,
 						)}
 					>
-						<div className="flex items-center justify-center"> 
+						<div className="flex items-center justify-center" style={{color: 'white'}}> 
 						<FaLinkedinIn className="inline scale-[0.7] md:scale-[0.8]" />
 						</div>
 					</Link>
@@ -200,7 +200,7 @@ export default function Home(props: Props) {
 							hoverClassName,
 						)}
 					>
-						<div className="flex items-center justify-center"> 
+						<div className="flex items-center justify-center" style={{color: 'white'}}> 
 						<PiPaperPlaneTiltBold className="inline scale-[0.7] md:scale-[0.8]" />
 						</div>
 					</Link>
@@ -218,7 +218,7 @@ export default function Home(props: Props) {
 							hoverClassName,
 						)}
 					>
-						<div className="flex items-center justify-center"> 
+						<div className="flex items-center justify-center" style={{color: 'white'}}> 
 						<MdOutlineSaveAlt className="inline scale-[0.7] md:scale-[0.8]" />
 						</div>
 					</Link>

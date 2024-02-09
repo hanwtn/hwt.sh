@@ -64,7 +64,7 @@ export function ContactForm() {
 						name="email"
 						id="email"
 						required
-						placeholder="hi@hantun.sh"
+						placeholder="hi@hantun.ca"
 						className="w-full"
 					/>
 				</label>

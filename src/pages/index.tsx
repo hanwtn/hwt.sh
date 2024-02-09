@@ -35,7 +35,7 @@ import { BiLogoSpringBoot } from "react-icons/bi";
 
 
 import {useLanyardWS, type Data} from 'use-lanyard';
-import {ContactForm} from '../components/contact-form';
+// import {ContactForm} from '../components/contact-form';
 import {CardHoverEffect, hoverClassName} from '../components/hover-card';
 import {Time} from '../components/time';
 import matrix from '../images/matrix.gif';
@@ -503,9 +503,9 @@ export default function Home(props: Props) {
 				</CardHoverEffect>
 				*/}
 
-				<div className="col-span-6 space-y-4 rounded-2xl bg-lime-400 p-6 text-black dark:bg-lime-500 md:col-span-6">
+				{/* <div className="col-span-6 space-y-4 rounded-2xl bg-lime-400 p-6 text-black dark:bg-lime-500 md:col-span-6">
 					<ContactForm />
-				</div>
+				</div> */}
 				
 			</main> 
 

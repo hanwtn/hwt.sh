@@ -8,27 +8,21 @@ import { MdOutlineSaveAlt } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
 import { PiPaperPlaneTiltBold } from "react-icons/pi";
 import {
-	SiAmazonaws,
-	SiBabel,
+	
 	SiDiscord,
 	SiDocker,
 	SiGit,
 	SiGithub,
-	SiGo,
 	SiJavascript,
 	SiMongodb,
 	SiNextdotjs,
 	SiNodedotjs,
 	SiPostgresql,
 	SiReact,
-	SiRedis,
-	SiSpotify,
 	SiTailwindcss,
 	SiTypescript,
 	SiVisualstudiocode,
 	SiWebpack,
-	SiWebstorm,
-	SiYarn,
 	SiDevpost,
 	SiPython,
 	SiAdobe,
@@ -45,13 +39,12 @@ import {ContactForm} from '../components/contact-form';
 import {CardHoverEffect, hoverClassName} from '../components/hover-card';
 import {Time} from '../components/time';
 import matrix from '../images/matrix.gif';
-import me from '../images/me.jpg';
 // import {getMapURL} from '../server/apple-maps';
 import {getRecentBlogPosts, type PartialBlogPost} from '../server/blog';
 import {env} from '../server/env';
 import {getLanyard} from '../server/lanyard';
-import {age, discordId} from '../utils/constants';
-import {formatList} from '../utils/lists';
+import {discordId} from '../utils/constants';
+// import {formatList} from '../utils/lists';
 
 export interface Props {
 	lanyard: Data;
@@ -65,6 +58,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 	const location = lanyard.kv.location ?? env.DEFAULT_LOCATION;
 
 	// const map = getMapURL(location);
+	const map = "";
 
 	const allBlogPosts = await getRecentBlogPosts();
 	const recentBlogPosts = allBlogPosts
@@ -74,7 +68,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 	return {
 		revalidate: 10,
 		props: {
-			// map,
+			map,
 			location,
 			lanyard,
 			recentBlogPosts,
@@ -507,11 +501,12 @@ export default function Home(props: Props) {
 						</Link>
 					)}
 				</CardHoverEffect>
+				*/}
 
 				<div className="col-span-6 space-y-4 rounded-2xl bg-lime-400 p-6 text-black dark:bg-lime-500 md:col-span-6">
 					<ContactForm />
 				</div>
-				*/}
+				
 			</main> 
 
 			<footer className="mx-auto flex max-w-3xl items-center justify-center px-6 pb-12 text-sm text-neutral-600 [&_a:hover]:text-neutral-400 [&_a]:p-4 [&_a]:transition-colors">

@@ -13,13 +13,7 @@ export default function ExperimentsList() {
 					</p>
 				</li>
 
-				<li>
-					<Link href="/monzo/dashboard">Monzo Dashboard</Link>
-					<p className="text-sm">
-						Using the Monzo API to display personal account details. Unfortunately, the Monzo API
-						requires me to manually add users, so if you want access, contact me.
-					</p>
-				</li>
+				
 			</ul>
 		</div>
 	);

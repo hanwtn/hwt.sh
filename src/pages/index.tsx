@@ -350,7 +350,7 @@ export default function Home(props: Props) {
 					</p>
 
 					<p>
-					I am currently studing Computing Science and Interactive Arts at {' '}
+					I am currently studying Computing Science and Interactive Arts at {' '}
 						<Link className="underline" href="https://sfu.ca">
 							SFU
 						</Link>

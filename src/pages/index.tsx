@@ -27,7 +27,9 @@ import {
 	SiPython,
 	SiAdobe,
 	SiFigma,
-	SiFramer
+	SiFramer,
+SiInstagram,
+SiYoutube
 } from 'react-icons/si';
 import { TbBrandCpp, TbBrandThreejs } from "react-icons/tb";
 import { FaJava } from "react-icons/fa";
@@ -201,7 +203,7 @@ export default function Home(props: Props) {
 						)}
 					>
 						<div className="flex items-center justify-center" style={{color: 'white'}}> 
-						<PiPaperPlaneTiltBold className="inline scale-[0.7] md:scale-[0.8]" />
+						<SiYoutube className="inline scale-[0.7] md:scale-[0.8]" />
 						</div>
 					</Link>
 				</CardHoverEffect>
@@ -219,7 +221,7 @@ export default function Home(props: Props) {
 						)}
 					>
 						<div className="flex items-center justify-center" style={{color: 'white'}}> 
-						<MdOutlineSaveAlt className="inline scale-[0.7] md:scale-[0.8]" />
+						<SiInstagram className="inline scale-[0.7] md:scale-[0.8]" />
 						</div>
 					</Link>
 				</CardHoverEffect>

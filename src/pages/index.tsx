@@ -192,7 +192,7 @@ export default function Home(props: Props) {
 					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex bg-blue-400 dark:bg-blue-600  '
 				)}>
 					<Link
-						href="https://hanwintun.com"
+						href="https://youtube.com/@hanwt"
 						target="_blank"
 						rel="noopener noreferrer"
 						className={clsx(
@@ -210,7 +210,7 @@ export default function Home(props: Props) {
 					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex bg-blue-400 dark:bg-blue-600  '
 				)}>
 					<Link
-						href="https://hanwintun.com"
+						href="https://www.instagram.com/hanwtn"
 						target="_blank"
 						rel="noopener noreferrer"
 						className={clsx(

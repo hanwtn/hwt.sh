@@ -4,9 +4,9 @@ import type {GetStaticProps} from 'next';
 import { motion } from "framer-motion";
 import Link from 'next/link';
 import {FiArrowUpRight, FiArrowRight} from 'react-icons/fi';
-import { MdOutlineSaveAlt } from "react-icons/md";
+
 import { FaLinkedinIn } from "react-icons/fa";
-import { PiPaperPlaneTiltBold } from "react-icons/pi";
+
 import {
 	
 	SiDiscord,

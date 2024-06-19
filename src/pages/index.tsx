@@ -121,8 +121,7 @@ export default function Home(props: Props) {
 							</h1>
 
 							<p className="text-blue-600 dark:text-blue-300/80 dark:text-glow-blue-500/50">
-								{/* {age} y/o full stack typescript engineer */}
-								A Creative Developer
+								creating something...
 							</p>
 							
 						</div>
@@ -133,7 +132,7 @@ export default function Home(props: Props) {
 
 				<CardHoverEffect className="col-span-2 h-full">
 					<Link
-						href="https://hanwintun.com"
+						href="mailto:hi@hantun.ca"
 						target="_blank"
 						rel="noopener noreferrer"
 						className={clsx(
@@ -144,8 +143,8 @@ export default function Home(props: Props) {
 						<span className="sr-only">Portfolio</span>
 						<span className="transform-gpu transition duration-500 group-hover:scale-[1.3] text-xs">
 							{/* <SiX /> */}
-							Works
-							<p>hantun.ca</p>
+							Contact
+							{/* <p>hantun.ca</p> */}
 							<FiArrowRight className="text-xl opacity-50 transition duration-500 group-hover:opacity-100" />
 						</span>
 					</Link>

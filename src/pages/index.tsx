@@ -3,7 +3,7 @@ import dayjs from 'dayjs';
 import type {GetStaticProps} from 'next';
 import { motion } from "framer-motion";
 import Link from 'next/link';
-import {FiArrowUpRight, FiArrowRight} from 'react-icons/fi';
+import {FiArrowUpRight} from 'react-icons/fi';
 
 import { FaLinkedinIn } from "react-icons/fa";
 

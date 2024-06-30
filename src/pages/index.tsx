@@ -136,7 +136,7 @@ export default function Home(props: Props) {
 						target="_blank"
 						rel="noopener noreferrer"
 						className={clsx(
-							'flex h-full items-center justify-center rounded-2xl bg-yellow-200 text-4xl text-black dark:bg-yellow-800 dark:text-white',
+							'flex h-full items-center justify-center rounded-2xl bg-yellow-400 text-4xl text-black dark:bg-yellow-800 dark:text-white',
 							hoverClassName,
 						)}
 					>

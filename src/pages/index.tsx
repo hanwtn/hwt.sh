@@ -78,6 +78,17 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 	};
 };
 
+const Separator = () => {
+	return (
+	  <motion.div
+		className="h-0.5 bg-gray-800 dark:bg-gray-300 my-6 col-span-full"
+		initial={{ width: 0 }}
+		animate={{ width: '100%' }}
+		transition={{ duration: 0.5 }}
+	  />
+	);
+  };
+
 export default function Home(props: Props) {
 	const lanyard = useLanyardWS(discordId, {
 		initialData: props.lanyard,
@@ -226,6 +237,8 @@ export default function Home(props: Props) {
 						</span>
 					</Link>
 				</CardHoverEffect>
+
+				<Separator />
 
 
 

@@ -32,7 +32,7 @@ SiInstagram,
 SiYoutube
 } from 'react-icons/si';
 import { TbBrandCpp, TbBrandThreejs } from "react-icons/tb";
-import { FaJava } from "react-icons/fa";
+import { FaJava, FaRegPaperPlane  } from "react-icons/fa";
 import { BiLogoSpringBoot } from "react-icons/bi";
 
 
@@ -136,25 +136,112 @@ export default function Home(props: Props) {
 						target="_blank"
 						rel="noopener noreferrer"
 						className={clsx(
-							'flex h-full items-center justify-center rounded-2xl bg-neutral-200 text-4xl text-black dark:bg-neutral-800 dark:text-white',
+							'flex h-full items-center justify-center rounded-2xl bg-yellow-200 text-4xl text-black dark:bg-yellow-800 dark:text-white',
 							hoverClassName,
 						)}
 					>
-						<span className="sr-only">Portfolio</span>
+						<span aria-hidden className="pointer-events-none absolute inset-0 -z-20 rounded-2xl">
+						  
+							<span
+								aria-hidden
+								className="absolute inset-0 bg-gradient-to-t from-neutral-900/60 to-neutral-900/20 dark:bg-neutral-900/50"
+							/>
+						</span>
 						<span className="transform-gpu transition duration-500 group-hover:scale-[1.3] text-xs">
 							{/* <SiX /> */}
-							Contact
 							{/* <p>hantun.ca</p> */}
-							<FiArrowRight className="text-xl opacity-50 transition duration-500 group-hover:opacity-100" />
+							<FaRegPaperPlane className="text-xl opacity-50 transition duration-500 group-hover:opacity-100" />
 						</span>
 					</Link>
 				</CardHoverEffect>
+
+
+
+
+				<CardHoverEffect className="col-span-3 h-full md:col-span-3">
+					<Link
+						href="https://github.com/alii"
+						target="_blank"
+						rel="noopener noreferrer"
+						className={clsx(
+							'group relative flex h-full w-full flex-col justify-between overflow-hidden rounded-2xl text-white',
+							hoverClassName,
+						)}
+					>
+						<span aria-hidden className="pointer-events-none absolute inset-0 -z-20">
+						    <img
+								src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjgweWg1bHhhaWl2cnM2NTkzcGc0YjNpZG42ZDVxOXJscXM3NWI4byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2aQS3AHfvvfIkSdbFM/giphy.gif"
+								alt="The Matrix scrolling characters effect"
+								className="absolute inset-0 h-full w-full object-cover object-center invert dark:brightness-[0.7] dark:invert-0"
+							/>
+
+							<span
+								aria-hidden
+								className="absolute inset-0 bg-gradient-to-t from-neutral-900/60 to-neutral-900/20 dark:bg-neutral-900/50"
+							/>
+						</span>
+
+						<span aria-hidden className="px-6 pt-6">
+						    <span className="flex justify-between">
+								<div className="text-3xl"></div>
+								<FiArrowUpRight className="text-xl opacity-50 transition duration-500 group-hover:opacity-100" />
+							</span>
+						</span>
+
+						<span className="space-y-0.5 px-6 pb-6">
+							<span className="block font-semibold">Portfolio</span>
+
+							<span className="block text-sm">developments & crafts</span>
+						</span>
+					</Link>
+				</CardHoverEffect>
+				<CardHoverEffect className="col-span-3 h-full md:col-span-3">
+					<Link
+						href="https://github.com/alii"
+						target="_blank"
+						rel="noopener noreferrer"
+						className={clsx(
+							'group relative flex h-full w-full flex-col justify-between overflow-hidden rounded-2xl text-white',
+							hoverClassName,
+						)}
+					>
+						<span aria-hidden className="pointer-events-none absolute inset-0 -z-20">
+							<img
+								src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjYwOGgwcXN5Yzd6bGZ5bW9xZmt6bWFwd3YweXU4NTlvOGFtZ2UxbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A1oBMukTqFfkoY1HiH/giphy.gif"
+								alt="The Matrix scrolling characters effect"
+								className="absolute inset-0 h-full w-full object-cover object-center invert dark:brightness-[0.7] dark:invert-0"
+							/>
+
+							<span
+								aria-hidden
+								className="absolute inset-0 bg-gradient-to-t from-neutral-900/60 to-neutral-900/20 dark:bg-neutral-900/50"
+							/>
+						</span>
+
+						<span aria-hidden className="px-6 pt-6">
+							<span className="flex justify-between">
+								<div className="text-3xl"></div>
+								<FiArrowUpRight className="text-xl opacity-50 transition duration-500 group-hover:opacity-100" />
+							</span>
+						</span>
+
+						<span className="space-y-0.5 px-6 pb-6">
+							<span className="block font-semibold">Photos</span>
+
+							<span className="block text-sm">moments in my life</span>
+						</span>
+					</Link>
+				</CardHoverEffect>
+
+
+
+				
 
 				{/* Links */}
 				<div className="grid grid-cols-2 gap-3 col-span-3 md:col-span-2" style={{ gridTemplateRows: '1fr 1fr' }}>
 
 				<CardHoverEffect className={clsx(
-					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex bg-blue-400 dark:bg-blue-600 '
+					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex  bg-cyan-200 dark:bg-cyan-800 '
 				)}>
 					<Link
 						href="https://devpost.com/hanwt"
@@ -172,7 +259,7 @@ export default function Home(props: Props) {
 				</CardHoverEffect>
 
 				<CardHoverEffect className={clsx(
-					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex bg-blue-400 dark:bg-blue-600 '
+					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex bg-cyan-200 dark:bg-cyan-800 '
 				)}>
 					<Link
 						href="https://www.linkedin.com/in/hanwt/"
@@ -190,8 +277,10 @@ export default function Home(props: Props) {
 				</CardHoverEffect>
 
 				<CardHoverEffect className={clsx(
-					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex bg-blue-400 dark:bg-blue-600  '
+					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex  bg-cyan-200 dark:bg-cyan-800  '
 				)}>
+
+					
 					<Link
 						href="https://youtube.com/@hanwt"
 						target="_blank"
@@ -208,8 +297,9 @@ export default function Home(props: Props) {
 				</CardHoverEffect>
 
 				<CardHoverEffect className={clsx(
-					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex bg-blue-400 dark:bg-blue-600  '
+					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex  bg-cyan-200 dark:bg-cyan-800  '
 				)}>
+					
 					<Link
 						href="https://www.instagram.com/hanwtn"
 						target="_blank"
@@ -241,11 +331,11 @@ export default function Home(props: Props) {
 							online: 'bg-green-400 text-green-900 dark:bg-green-600 dark:text-green-50',
 							idle: 'bg-orange-400 text-orange-50 ',
 							dnd: 'bg-red-500 text-red-100 dark:bg-red-600',
-							offline: 'bg-blurple text-white/90',
+							offline: 'bg-cyan-400 dark:bg-cyan-900 text-white/90',
 						}[status],
 					)}
 				>
-					<div className="-rotate-[10deg] md:-rotate-[10deg] scale-[0.5] text-center md:scale-[0.8] md:h-full h-20">
+					<div className=" scale-[0.5] text-center bottom-0 md:scale-[0.8] md:h-full h-20">
 						<h2>
 							<SiDiscord className="inline" />
 							<br></br>
@@ -295,10 +385,25 @@ export default function Home(props: Props) {
 						<span className="space-y-0.5 px-6 pb-6">
 							<span className="block font-semibold">GitHub</span>
 
-							<span className="block text-sm">My open source work &amp; contributions.</span>
+							<span className="block text-sm">My coding repositories.</span>
 						</span>
 					</Link>
 				</CardHoverEffect>
+
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
 			
 
 				<div className="col-span-3 flex items-center justify-center rounded-2xl bg-fuchsia-700 p-6 text-fuchsia-100 md:col-span-2">
@@ -513,7 +618,7 @@ export default function Home(props: Props) {
 			<footer className="mx-auto flex max-w-3xl items-center justify-center px-6 pb-12 text-sm text-neutral-600 [&_a:hover]:text-neutral-400 [&_a]:p-4 [&_a]:transition-colors">
 				{/* <Link href="https://github.com/alii/website">Source</Link> */}
 				<Link href="/stats">Stats</Link>
-				<Link href="https://i.hwt.sh">Photos</Link>
+				<Link href="https://hwt.sh">Website</Link>
 				{/* <Link href="/experiments">Experiments</Link> */}
 			</footer>
 		</div>

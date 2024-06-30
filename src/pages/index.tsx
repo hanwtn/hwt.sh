@@ -154,7 +154,7 @@ export default function Home(props: Props) {
 
 				<CardHoverEffect className="col-span-3 h-full md:col-span-3">
 					<Link
-						href="https://github.com/alii"
+						href="https://hwt.sh"
 						target="_blank"
 						rel="noopener noreferrer"
 						className={clsx(
@@ -191,7 +191,7 @@ export default function Home(props: Props) {
 				</CardHoverEffect>
 				<CardHoverEffect className="col-span-3 h-full md:col-span-3">
 					<Link
-						href="https://github.com/alii"
+						href="https://i.hwt.sh"
 						target="_blank"
 						rel="noopener noreferrer"
 						className={clsx(

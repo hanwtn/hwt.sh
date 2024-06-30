@@ -140,13 +140,7 @@ export default function Home(props: Props) {
 							hoverClassName,
 						)}
 					>
-						<span aria-hidden className="pointer-events-none absolute inset-0 -z-20 rounded-2xl">
-						  
-							<span
-								aria-hidden
-								className="absolute inset-0 bg-gradient-to-t from-neutral-900/60 to-neutral-900/20 dark:bg-neutral-900/50"
-							/>
-						</span>
+					
 						<span className="transform-gpu transition duration-500 group-hover:scale-[1.3] text-xs">
 							{/* <SiX /> */}
 							{/* <p>hantun.ca</p> */}
@@ -171,7 +165,7 @@ export default function Home(props: Props) {
 						<span aria-hidden className="pointer-events-none absolute inset-0 -z-20">
 						    <img
 								src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjgweWg1bHhhaWl2cnM2NTkzcGc0YjNpZG42ZDVxOXJscXM3NWI4byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2aQS3AHfvvfIkSdbFM/giphy.gif"
-								alt="The Matrix scrolling characters effect"
+								alt="Gradient Gif"
 								className="absolute inset-0 h-full w-full object-cover object-center invert dark:brightness-[0.7] dark:invert-0"
 							/>
 
@@ -208,8 +202,8 @@ export default function Home(props: Props) {
 						<span aria-hidden className="pointer-events-none absolute inset-0 -z-20">
 							<img
 								src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjYwOGgwcXN5Yzd6bGZ5bW9xZmt6bWFwd3YweXU4NTlvOGFtZ2UxbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A1oBMukTqFfkoY1HiH/giphy.gif"
-								alt="The Matrix scrolling characters effect"
-								className="absolute inset-0 h-full w-full object-cover object-center invert dark:brightness-[0.7] dark:invert-0"
+								alt="Photo Gif"
+								className="absolute inset-0 h-full w-full object-cover object-center dark:brightness-[0.7]"
 							/>
 
 							<span
@@ -241,7 +235,7 @@ export default function Home(props: Props) {
 				<div className="grid grid-cols-2 gap-3 col-span-3 md:col-span-2" style={{ gridTemplateRows: '1fr 1fr' }}>
 
 				<CardHoverEffect className={clsx(
-					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex  bg-cyan-200 dark:bg-cyan-800 '
+					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex  bg-cyan-500 dark:bg-cyan-800 '
 				)}>
 					<Link
 						href="https://devpost.com/hanwt"
@@ -259,7 +253,7 @@ export default function Home(props: Props) {
 				</CardHoverEffect>
 
 				<CardHoverEffect className={clsx(
-					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex bg-cyan-200 dark:bg-cyan-800 '
+					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex bg-cyan-500 dark:bg-cyan-800 '
 				)}>
 					<Link
 						href="https://www.linkedin.com/in/hanwt/"
@@ -277,7 +271,7 @@ export default function Home(props: Props) {
 				</CardHoverEffect>
 
 				<CardHoverEffect className={clsx(
-					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex  bg-cyan-200 dark:bg-cyan-800  '
+					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex  bg-cyan-500 dark:bg-cyan-800  '
 				)}>
 
 					
@@ -297,7 +291,7 @@ export default function Home(props: Props) {
 				</CardHoverEffect>
 
 				<CardHoverEffect className={clsx(
-					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex  bg-cyan-200 dark:bg-cyan-800  '
+					'items-center justify-center rounded-2xl text-4xl md:col-span-1 flex  bg-cyan-500 dark:bg-cyan-800  '
 				)}>
 					
 					<Link
@@ -331,7 +325,7 @@ export default function Home(props: Props) {
 							online: 'bg-green-400 text-green-900 dark:bg-green-600 dark:text-green-50',
 							idle: 'bg-orange-400 text-orange-50 ',
 							dnd: 'bg-red-500 text-red-100 dark:bg-red-600',
-							offline: 'bg-cyan-400 dark:bg-cyan-900 text-white/90',
+							offline: 'bg-cyan-600 dark:bg-cyan-900 text-white/90',
 						}[status],
 					)}
 				>

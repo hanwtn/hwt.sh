@@ -60,13 +60,13 @@ const config = {
 				permanent: true,
 			},
 			{
-				source: '/labs/graphics/Mandelbrot ',
+				source: '/labs/graphics/Mandelbrot',
 				destination: '/labs/graphics/Mandelbrot.html',
 				permanent: true,
 			},
 			{
-				source: '/labs/graphics/Carousel',
-				destination: '/labs/graphics/Carousel/index.html',
+				source: '/labs/graphics/Windmail',
+				destination: '/labs/graphics/Windmail/index.html',
 				permanent: true,
 			}
 		];

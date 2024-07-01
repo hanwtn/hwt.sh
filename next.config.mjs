@@ -30,6 +30,21 @@ const config = {
 				permanent: true,
 			},
 			{
+				source: '/portfolio',
+				destination: 'https://hantun.ca',
+				permanent: true,
+			},
+			{
+				source: '/gallery',
+				destination: 'https://i.hwt.sh',
+				permanent: true,
+			},
+			{
+				source: '/Github',
+				destination: 'https://github.com/xhanwt',
+				permanent: true,
+			},
+			{
 				source: '/labs/graphics/bouncing',
 				destination: '/labs/graphics/bouncing.html',
 				permanent: true,

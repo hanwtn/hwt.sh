@@ -47,6 +47,25 @@ export default function GraphicLabs() {
 			</p>
 			</li>
 
+            <li>
+			<Link href="/labs/graphics/PolyhedraModels" legacyBehavior>
+				<a  rel="noopener noreferrer">Polyhedra</a>
+			</Link>
+			<p className="text-sm">
+            Polyhedra
+			</p>
+			</li>
+
+
+            <li>
+			<Link href="/labs/graphics/Carousel" legacyBehavior>
+				<a  rel="noopener noreferrer">Carousel</a>
+			</Link>
+			<p className="text-sm">
+            Carousel
+			</p>
+			</li>
+
 
 				
 			</ul>

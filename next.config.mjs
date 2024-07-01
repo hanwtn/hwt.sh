@@ -48,6 +48,16 @@ const config = {
 				source: '/labs/graphics/3DModels',
 				destination: '/labs/graphics/3DModels.html',
 				permanent: true,
+			},
+			{
+				source: '/labs/graphics/PolyhedraModels',
+				destination: '/labs/graphics/Polyhedra.html',
+				permanent: true,
+			},
+			{
+				source: '/labs/graphics/Carousel',
+				destination: '/labs/graphics/Carousel/index.html',
+				permanent: true,
 			}
 		];
 	},

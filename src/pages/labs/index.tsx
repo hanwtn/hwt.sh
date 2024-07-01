@@ -11,7 +11,7 @@ export default function ExperimentsList() {
 
 			<li>
 			<Link href="/labs/graphics" legacyBehavior>
-				<a target="_blank" rel="noopener noreferrer">Computer Graphics</a>
+				<a rel="noopener noreferrer">Computer Graphics</a>
 			</Link>
 			<p className="text-sm">
 				Computer graphical experiments.

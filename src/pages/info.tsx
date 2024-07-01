@@ -89,6 +89,7 @@ export default function Home(props: Props) {
 
 	return (
 		<div className="space-y-6">
+			{/* <Link className="mx-auto flex max-w-3xl items-right justify-right px-6 text-sm text-neutral-600 [&_a:hover]:text-neutral-400 [&_a]:p-4 [&_a]:transition-colors" href="/">[ Less ]</Link> */}
 			<main className="mx-auto grid max-w-3xl grid-cols-6 gap-3 px-6 pt-16">
 
             <div className="col-span-4 flex h-52 flex-col justify-between overflow-hidden rounded-2xl bg-blue-200 px-8 py-8 dark:border-blue-500 dark:bg-blue-500/20 dark:shadow-none dark:backdrop-blur-2xl md:col-span-4">

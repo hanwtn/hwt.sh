@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function GraphicLabs() {
 	return (
 		<div className="mx-auto max-w-prose space-y-8 px-6 py-24">
-			<p>Computer Graphics</p>
+			<p>Visual and Interactive Computing - Graphic Labs</p>
 
 			<ul className="list-outside list-disc space-y-4 [&_a:hover]:underline [&_a]:text-blue-400">
 

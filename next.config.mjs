@@ -58,6 +58,16 @@ const config = {
 				source: '/labs/graphics/Carousel',
 				destination: '/labs/graphics/Carousel/index.html',
 				permanent: true,
+			},
+			{
+				source: '/labs/graphics/Mandelbrot ',
+				destination: '/labs/graphics/Mandelbrot.html',
+				permanent: true,
+			},
+			{
+				source: '/labs/graphics/Carousel',
+				destination: '/labs/graphics/Carousel/index.html',
+				permanent: true,
 			}
 		];
 	},

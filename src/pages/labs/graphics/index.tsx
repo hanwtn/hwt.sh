@@ -66,6 +66,24 @@ export default function GraphicLabs() {
 			</p>
 			</li>
 
+			<li>
+			<Link href="/labs/graphics/Mandelbrot " legacyBehavior>
+				<a  rel="noopener noreferrer">Mandelbrot </a>
+			</Link>
+			<p className="text-sm">
+            Mandelbrot 
+			</p>
+			</li>
+
+			<li>
+			<Link href="/labs/graphics/Windmail" legacyBehavior>
+				<a  rel="noopener noreferrer">Windmail</a>
+			</Link>
+			<p className="text-sm">
+            Windmail
+			</p>
+			</li>
+
 
 				
 			</ul>

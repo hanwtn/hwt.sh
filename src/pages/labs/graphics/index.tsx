@@ -24,7 +24,7 @@ export default function GraphicLabs() {
 				<a  rel="noopener noreferrer">2D Transformations</a>
 			</Link>
 			<p className="text-sm">
-				2D Transformations
+				Simple 2D transformations to an image.
 			</p>
 			</li>
 
@@ -34,8 +34,7 @@ export default function GraphicLabs() {
 				<a  rel="noopener noreferrer">Subroutine Hierarchy</a>
 			</Link>
 			<p className="text-sm">
-				2D Transformations
-			</p>
+				Animated wheels.
 			</li>
 
             <li>
@@ -43,7 +42,7 @@ export default function GraphicLabs() {
 				<a  rel="noopener noreferrer">3D Models</a>
 			</Link>
 			<p className="text-sm">
-				3D Models
+				OpenGL, glsim.js
 			</p>
 			</li>
 
@@ -52,7 +51,7 @@ export default function GraphicLabs() {
 				<a  rel="noopener noreferrer">Polyhedra</a>
 			</Link>
 			<p className="text-sm">
-            Polyhedra
+            OpenGL, glsim.js
 			</p>
 			</li>
 
@@ -62,7 +61,7 @@ export default function GraphicLabs() {
 				<a  rel="noopener noreferrer">Carousel</a>
 			</Link>
 			<p className="text-sm">
-            Carousel
+            Three.js
 			</p>
 			</li>
 
@@ -71,7 +70,7 @@ export default function GraphicLabs() {
 				<a  rel="noopener noreferrer">Mandelbrot </a>
 			</Link>
 			<p className="text-sm">
-            Mandelbrot 
+            Mandelbrot set image generator using the complex number equation (z n+1 = z n 2 + c).
 			</p>
 			</li>
 
@@ -80,7 +79,7 @@ export default function GraphicLabs() {
 				<a  rel="noopener noreferrer">Windmail</a>
 			</Link>
 			<p className="text-sm">
-            Windmail
+            WebGL
 			</p>
 			</li>
 

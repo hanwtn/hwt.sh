@@ -35,6 +35,7 @@ export default function GraphicLabs() {
 			</Link>
 			<p className="text-sm">
 				Animated wheels.
+			</p>
 			</li>
 
             <li>

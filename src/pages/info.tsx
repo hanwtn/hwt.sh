@@ -157,7 +157,7 @@ export default function Home(props: Props) {
 
 				<CardHoverEffect className="col-span-3 h-full md:col-span-3">
 					<Link
-						href="https://hwt.sh"
+						href="https://hantun.ca"
 						target="_blank"
 						rel="noopener noreferrer"
 						className={clsx(

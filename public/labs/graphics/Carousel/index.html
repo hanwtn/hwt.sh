@@ -239,27 +239,6 @@ const audio = new Audio("https://cdn.glitch.global/17c63fbd-6dc8-4bca-a5e0-0ed57
 audio.loop = true;
 
   
-/*  Called when user changes setting of the Animate checkbox. */
-function doAnimateCheckbox() {
-   let run = document.getElementById("animateCheckbox").checked;
-  
-  
-   if (run) {
-        audio.play();
-    } else {
-        audio.pause();
-        audio.currentTime = 0; // reset audio to the beginning
-    }
-  
-   if (run != animating) {
-       animating = run;
-     
-       if (animating) {
-           previousTime = -1; // for starting or restarting the animation
-           requestAnimationFrame(doFrame);
-       }
-   }
-}
 
 /*  Drives the animation, called by system through requestAnimationFrame() */
 function doFrame() {
@@ -276,14 +255,28 @@ function doFrame() {
     }
 }
 
-/*----------------------------- INITIALIZATION ----------------------------------------
+/*  Called when user changes setting of the Animate or Audio checkbox. */
+function doAnimateCheckbox() {
+   let run = document.getElementById("animateCheckbox").checked;
+   let audioOn = document.getElementById("audioCheckbox").checked;
+  
+   if (audioOn && run) {
+        audio.play();
+    } else {
+        audio.pause();
+        audio.currentTime = 0; // reset audio to the beginning
+    }
+  
+   if (run != animating) {
+       animating = run;
+     
+       if (animating) {
+           previousTime = -1; // for starting or restarting the animation
+           requestAnimationFrame(doFrame);
+       }
+   }
+}
 
-/**
- *  This function is called by the onload event so it will run after the
- *  page has loaded.  It creates the renderer, canvas, and scene objects,
- *  calls createWorld() to add objects to the scene, and renders the
- *  initial view of the scene.  If an error occurs, it is reported.
- */
 function init() {
     try {
         canvas = document.getElementById("glcanvas");
@@ -299,7 +292,9 @@ function init() {
         return;
     }
     document.getElementById("animateCheckbox").checked = false;
+    document.getElementById("audioCheckbox").checked = false; // Ensure the audio checkbox is unchecked by default
     document.getElementById("animateCheckbox").onchange = doAnimateCheckbox;
+    document.getElementById("audioCheckbox").onchange = doAnimateCheckbox; // Add onchange event listener for the audio checkbox
     document.getElementById("reset").onclick = function() { controls.reset(); };
     createWorld();
     controls = new THREE.OrbitControls(camera,canvas);
@@ -308,6 +303,7 @@ function init() {
     controls.addEventListener("change", render);
     render();
 }
+
 
 window.onload = init;  // arrange for init() to be called when the page loads.
 
@@ -329,9 +325,11 @@ window.onload = init;  // arrange for init() to be called when the page loads.
 <p><b style="margin-left:50px">Use your mouse to rotate the model.</b></p>
 
 <p>
-   <label><input type="checkbox" id="animateCheckbox" style="margin-left:50px"><b>Animate</b></label>
-   <button style="margin-left: 50px" id="reset">Reset Rotation</button>
-</p>
+    <label><input type="checkbox" id="animateCheckbox" style="margin-left:50px"><b>Animate</b></label>
+    <label><input type="checkbox" id="audioCheckbox" style="margin-left:50px"><b>Audio</b></label>
+    <button style="margin-left: 50px" id="reset">Reset Rotation</button>
+ </p>
+ 
 
 <div id="canvas-holder" style="float: left; background-color: black">
    <canvas width=1000 height=600 id="glcanvas"></canvas>

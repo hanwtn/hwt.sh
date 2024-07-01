@@ -236,21 +236,22 @@ export default function Home(props: Props) {
 
             <div className="col-span-6 space-y-2 rounded-2xl bg-yellow-200 p-6 dark:bg-indigo-800 md:col-span-4">
 					<h2 className="font-semibold">
-						Introduction <span className="inline dark:hidden">🌻</span>
+						hi i’m han. <span className="inline dark:hidden">🌻</span>
 						<span className="hidden dark:inline">⭐</span>
 					</h2>
 
 					<p>
-					Hi! I’m Han. I am passionate about IxD, creative coding and visual storytelling, and I seek to combine my technical and artistic abilities to create innovative and impactful solutions.
 					
+i am a full-stack (creative) developer and 
+build buncha stuff — from discord bots to web apps. i’m super into creative stuff — film, design, and music. i enjoy taking photos and create short videos on my youtube. 
+i also play instruments like piano, guitar and you’ll often find me dj-ing at my friends’ parties. i’m just a guy who loves building and creating things for others.
+
+
 					</p>
 
 					<p>
-					I am currently studying Computing Science and Interactive Arts at {' '}
-						<Link className="underline" href="https://sfu.ca">
-							SFU
-						</Link>
-						.
+				for now, i’m studying computing science & interactive arts at <Link className="underline" href="https://sfu.ca">sfu</Link> focusing on ixd, ai and visual computing.
+				
 					</p>
 
                     {/* <p>

@@ -124,7 +124,7 @@ export default function Home() {
 						<span className="space-y-0.5 px-6 pb-6">
 							<span className="block font-semibold">Portfolio</span>
 
-							<span className="block text-sm"></span>
+							<span className="block text-sm">developments & visuals</span>
 						</span>
 					</Link>
 				</CardHoverEffect>
@@ -161,7 +161,7 @@ export default function Home() {
 						<span className="space-y-0.5 px-6 pb-6">
 							<span className="block font-semibold">Photos</span>
 
-							<span className="block text-sm"></span>
+							<span className="block text-sm">random moments</span>
 						</span>
 					</Link>
 				</CardHoverEffect>

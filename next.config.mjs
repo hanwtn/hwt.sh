@@ -41,12 +41,12 @@ const config = {
 			},
 			{
 				source: '/images',
-				destination: 'https://i.hwt.sh/grid',
+				destination: 'https://i.hantun.ca/grid',
 				permanent: true,
 			},
 			{
 				source: '/photos',
-				destination: 'https://i.hwt.sh/grid',
+				destination: 'https://i.hantun.ca/grid',
 				permanent: true,
 			},
 			{

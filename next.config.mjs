@@ -28,8 +28,12 @@ const config = {
 				source: '/linkedin',
 				destination: 'https://www.linkedin.com/in/hanwt/',
 				permanent: true,
+			},
+			{
+				source: '/labs/graphics/bouncing',
+				destination: '/labs/graphics/bouncing.html',
+				permanent: true,
 			}
-	
 		];
 	},
 };

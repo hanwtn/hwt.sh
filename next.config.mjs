@@ -40,7 +40,12 @@ const config = {
 				permanent: true,
 			},
 			{
-				source: '/gallery',
+				source: '/images',
+				destination: 'https://i.hwt.sh',
+				permanent: true,
+			},
+			{
+				source: '/photos',
 				destination: 'https://i.hwt.sh',
 				permanent: true,
 			},

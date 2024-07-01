@@ -33,6 +33,21 @@ const config = {
 				source: '/labs/graphics/bouncing',
 				destination: '/labs/graphics/bouncing.html',
 				permanent: true,
+			},
+			{
+				source: '/labs/graphics/2DTransforms',
+				destination: '/labs/graphics/2DTransforms.html',
+				permanent: true,
+			},
+			{
+				source: '/labs/graphics/SubroutineHierarchy',
+				destination: '/labs/graphics/SubroutineHierarchy.html',
+				permanent: true,
+			},
+			{
+				source: '/labs/graphics/3DModels',
+				destination: '/labs/graphics/3DModels.html',
+				permanent: true,
 			}
 		];
 	},

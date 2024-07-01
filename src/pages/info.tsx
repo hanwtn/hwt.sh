@@ -226,7 +226,7 @@ export default function Home(props: Props) {
 						<span className="space-y-0.5 px-6 pb-6">
 							<span className="block font-semibold">Photos</span>
 
-							<span className="block text-sm">moments in my life</span>
+							<span className="block text-sm">random moments</span>
 						</span>
 					</Link>
 				</CardHoverEffect>

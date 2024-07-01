@@ -35,6 +35,11 @@ const config = {
 				permanent: true,
 			},
 			{
+				source: '/folio',
+				destination: 'https://hantun.ca',
+				permanent: true,
+			},
+			{
 				source: '/gallery',
 				destination: 'https://i.hwt.sh',
 				permanent: true,

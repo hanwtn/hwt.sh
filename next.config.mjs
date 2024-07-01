@@ -41,12 +41,12 @@ const config = {
 			},
 			{
 				source: '/images',
-				destination: 'https://i.hwt.sh',
+				destination: 'https://i.hwt.sh/grid',
 				permanent: true,
 			},
 			{
 				source: '/photos',
-				destination: 'https://i.hwt.sh',
+				destination: 'https://i.hwt.sh/grid',
 				permanent: true,
 			},
 			{

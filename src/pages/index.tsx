@@ -325,7 +325,7 @@ export default function Home() {
 				<Link href="/labs">[ labs ]</Link>
 
 				
-				<Link href="/info">[ More ]</Link>
+				<Link href="/info">[ more ]</Link>
 				{/* <Link href="/experiments">Experiments</Link> */}
 			</footer>
 		</div>

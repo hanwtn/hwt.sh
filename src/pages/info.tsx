@@ -632,7 +632,7 @@ export default function Home(props: Props) {
 
 				<Link href="/labs">[ labs ]</Link>
 				
-				<Link href="/">[ Less ]</Link>
+				<Link href="/">[ less ]</Link>
 
 				
                

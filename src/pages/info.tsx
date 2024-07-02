@@ -158,7 +158,7 @@ export default function Home(props: Props) {
 
 				<CardHoverEffect className="col-span-3 h-full md:col-span-3">
 					<Link
-						href="https://hantun.ca"
+						href="/folio"
 						target="_blank"
 						rel="noopener noreferrer"
 						className={clsx(
@@ -195,7 +195,7 @@ export default function Home(props: Props) {
 				</CardHoverEffect>
 				<CardHoverEffect className="col-span-3 h-full md:col-span-3">
 					<Link
-						href="https://i.hwt.sh"
+						href="/images"
 						target="_blank"
 						rel="noopener noreferrer"
 						className={clsx(

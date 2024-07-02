@@ -236,8 +236,9 @@ export default function Home(props: Props) {
 
             <div className="col-span-6 space-y-2 rounded-2xl bg-yellow-200 p-6 dark:bg-indigo-800 md:col-span-4">
 					<h2 className="font-semibold">
-						hi i’m han. <span className="inline dark:hidden">🌻</span>
-						<span className="hidden dark:inline">⭐</span>
+						 <span className="inline dark:hidden">✳️</span>
+						<span className="hidden dark:inline">❇️</span>
+hi i’m han.
 					</h2>
 
 					<p>

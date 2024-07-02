@@ -236,9 +236,7 @@ export default function Home(props: Props) {
 
             <div className="col-span-6 space-y-2 rounded-2xl bg-yellow-200 p-6 dark:bg-indigo-800 md:col-span-4">
 					<h2 className="font-semibold">
-						 <span className="inline dark:hidden">✳️</span>
-						<span className="hidden dark:inline">❇️</span>
-hi i’m han.
+					hi i’m han.
 					</h2>
 
 					<p>
@@ -249,6 +247,8 @@ i also play instruments like piano, guitar and you’ll often find me dj-ing at 
 					</p>
 
 					<p>
+	 <span className="inline dark:hidden">✳️ </span>
+						<span className="hidden dark:inline">❇️ </span>
 				for now, i’m studying computing science & interactive arts at <Link className="underline" href="https://sfu.ca">sfu</Link> focusing on ixd, ai and visual computing.
 				
 					</p>

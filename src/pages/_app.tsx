@@ -7,6 +7,8 @@ import Head from 'next/head';
 import {useEffect} from 'react';
 import {Toaster} from 'react-hot-toast';
 import {useFirstEverLoad, useVisitCounts} from '../hooks/use-first-ever-load';
+import GoogleAnalytics from "@bradgarropy/next-google-analytics"
+
 
 const title = Newsreader({
 	subsets: ['latin'],
@@ -47,16 +49,7 @@ export default function App({Component, pageProps}: AppProps) {
 				
 			</Head>
 
-   <script strategy="afterInteractive" async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_MEM}`}></script>
-			<script>
-			{`window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', '${process.env.GOOGLE_ANALYTICS_MEM}');
-			page_path: window.location.pathname,
-			`}
-			</script>
+   <GoogleAnalytics measurementId=process.env.GOOGLE_ANALYTICS_MEM />
 
 			<Component {...pageProps} />
 

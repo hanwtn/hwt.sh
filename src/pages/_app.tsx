@@ -7,7 +7,7 @@ import Head from 'next/head';
 import {useEffect} from 'react';
 import {Toaster} from 'react-hot-toast';
 import {useFirstEverLoad, useVisitCounts} from '../hooks/use-first-ever-load';
-import GoogleAnalytics from "@bradgarropy/next-google-analytics"
+import GoogleAnalytics from '../components/GoogleAnalytics';
 
 
 const title = Newsreader({
@@ -32,6 +32,8 @@ export default function App({Component, pageProps}: AppProps) {
 
 	return (
 		<>
+
+			<GoogleAnalytics/>
 			<style jsx global>
 				{`
 					:root {
@@ -49,7 +51,6 @@ export default function App({Component, pageProps}: AppProps) {
 				
 			</Head>
 
-   <GoogleAnalytics measurementId=process.env.GOOGLE_ANALYTICS_MEM />
 
 			<Component {...pageProps} />
 

@@ -8,7 +8,6 @@ import {useEffect} from 'react';
 import {Toaster} from 'react-hot-toast';
 import {useFirstEverLoad, useVisitCounts} from '../hooks/use-first-ever-load';
 import GoogleAnalytics from '../components/GoogleAnalytics';
-import { VercelAnalytics } from "@vercel/analytics/react"
 
 const title = Newsreader({
 	subsets: ['latin'],
@@ -34,7 +33,7 @@ export default function App({Component, pageProps}: AppProps) {
 		<>
 
 			<GoogleAnalytics/>
-			<VercelAnalytics/>
+			
 			<style jsx global>
 				{`
 					:root {

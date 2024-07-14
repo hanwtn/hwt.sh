@@ -189,7 +189,7 @@ export default function Home(props: Props) {
 						<span className="space-y-0.5 px-6 pb-6">
 							<span className="block font-semibold">Portfolio</span>
 
-							<span className="block text-sm">developments & visuals</span>
+							<span className="block text-sm">(coming soon)</span>
 						</span>
 					</Link>
 				</CardHoverEffect>

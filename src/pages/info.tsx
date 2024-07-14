@@ -243,7 +243,7 @@ export default function Home(props: Props) {
 					
 i am a full-stack (creative) developer and 
 build buncha stuff — from discord bots to web apps. i’m super into creative stuff — film, design, and music. i enjoy taking photos and create short videos on my youtube. 
-i play piano and you’ll often find me dj-ing at my friends’ parties. 
+you’ll also find me dj-ing at my friends’ parties during holidays. 
 					</p>
 
 					<p>

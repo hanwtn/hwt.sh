@@ -249,7 +249,7 @@ you’ll also find me dj-ing at my friends’ parties during holidays.
 					<p>
 	 <span className="inline dark:hidden">✳️ </span>
 						<span className="hidden dark:inline">❇️ </span>
-				for now, i’m studying computing science & interactive arts at <Link className="underline" href="https://sfu.ca">sfu</Link> focusing on ixd, ai and visual computing.
+				for now, i’m studying computing science & interactive arts at <Link className="underline" href="https://sfu.ca">sfu</Link> focusing on interactive and visual computing.
 				
 					</p>
 

@@ -60,7 +60,7 @@ export default function Home() {
 							</h1>
 
 							<p className="text-blue-600 dark:text-blue-300/80 dark:text-glow-blue-500/50">
-								creating something...
+								vancouver, canada
 							</p>
 							
 						</div>

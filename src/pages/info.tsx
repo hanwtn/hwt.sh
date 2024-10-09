@@ -125,7 +125,7 @@ export default function Home(props: Props) {
 							</h1>
 
 							<p className="text-blue-600 dark:text-blue-300/80 dark:text-glow-blue-500/50">
-								creating something...
+								vancouver, canada
 							</p>
 							
 						</div>
@@ -189,7 +189,7 @@ export default function Home(props: Props) {
 						<span className="space-y-0.5 px-6 pb-6">
 							<span className="block font-semibold">Portfolio</span>
 
-							<span className="block text-sm">(coming soon)</span>
+{/* 							<span className="block text-sm">(coming soon)</span> */}
 						</span>
 					</Link>
 				</CardHoverEffect>
@@ -226,7 +226,7 @@ export default function Home(props: Props) {
 						<span className="space-y-0.5 px-6 pb-6">
 							<span className="block font-semibold">Photos</span>
 
-							<span className="block text-sm">random moments</span>
+{/* 							<span className="block text-sm">random moments</span> */}
 						</span>
 					</Link>
 				</CardHoverEffect>

@@ -51,7 +51,7 @@ const config = {
 			},
 			{
 				source: '/Github',
-				destination: 'https://github.com/xhanwt',
+				destination: 'https://github.com/hanwtn',
 				permanent: true,
 			},
 			{

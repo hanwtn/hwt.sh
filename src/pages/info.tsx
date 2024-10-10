@@ -384,7 +384,7 @@ you’ll also find me dj-ing at my friends’ parties during holidays.
 
 				<CardHoverEffect className="col-span-3 flex h-full min-h-[13rem] flex-shrink-0 overflow-hidden rounded-2xl"> 
 					<Link
-						href="https://github.com/xhanwt"
+						href="https://github.com/hanwtn"
 						target="_blank"
 						rel="noopener noreferrer"
 						className={clsx(

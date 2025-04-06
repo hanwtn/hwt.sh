@@ -56,7 +56,7 @@ export default function Home() {
 					<div className="space-y-4">
 						<div>
 							<h1 className="text-xl text-blue-900 dark:text-blue-300 dark:text-glow-blue-500/50">
-								Han (Win) Tun
+								Han 👋
 							</h1>
 
 							<p className="text-blue-600 dark:text-blue-300/80 dark:text-glow-blue-500/50">
